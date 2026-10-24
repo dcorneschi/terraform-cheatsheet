@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 200" font-family="Roboto, 'Helvetica Neue', Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Terraform Cheatsheet</title>
+  <desc id="d">The Terraform logo, four purple parallelograms, next to the title Terraform Cheatsheet and the subtitle Mastering Infrastructure as Code.</desc>
+  <defs>
+    <style>
+      .tf  { fill: #7b42bc; }
+      .tfd { fill: #4f2b8f; }
+      .h   { font-size: 56px; font-weight: 700; fill: #212529; letter-spacing: -0.5px; }
+      .s   { font-size: 24px; fill: #495057; }
+      .n   { font-size: 15px; fill: #868e96; }
+      .r   { stroke: #dee2e6; stroke-width: 2; }
+      @media (prefers-color-scheme: dark) {
+        .tf  { fill: #a067da; }
+        .tfd { fill: #7b42bc; }
+        .h   { fill: #f0f6fc; }
+        .s   { fill: #c9d1d9; }
+        .n   { fill: #8b949e; }
+        .r   { stroke: #30363d; }
+      }
+    </style>
+  </defs>
+
+  <!-- mark: the four Terraform tiles, drawn on a 24-unit grid -->
+  <g transform="translate(24,20) scale(6.6667)">
+    <path class="tf"  d="M1.44 0v7.575l6.561 3.79V3.787z"/>
+    <path class="tf"  d="M8.72 4.23v7.575l6.561 3.787V8.018z"/>
+    <path class="tf"  d="M8.72 12.635v7.575L15.28 24v-7.578z"/>
+    <path class="tfd" d="M22.56 4.227l-6.561 3.791v7.574l6.56-3.787z"/>
+  </g>
+
+  <line class="r" x1="210" y1="36" x2="210" y2="164"/>
+
+  <text class="h" x="240" y="94">Terraform Cheatsheet</text>
+  <text class="s" x="242" y="132">Mastering Infrastructure as Code</text>
+  <text class="n" x="242" y="162">init · plan · apply · state · workspaces · variables · modules · S3 backend · CI/CD</text>
+</svg>
